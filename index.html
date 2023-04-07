@@ -58,10 +58,10 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <video id="teaser" autoplay muted loop playsinline height="100%">
-      <source src="video/teaser_compressed.mp4" type="video/mp4"/>
+      <source src="video/web_30video_title.mp4" type="video/mp4"/>
     </video>
     <p style="font-size: 18px; text-align: center">
-      We present a new system design and learning pipeline for in-hand rotation using only touching. Video speed is 1x.
+      We present a new system design and learning pipeline for in-hand rotation around x, y, and z axes using only touching. Video speed is 1x.
     </p>
   </div>
 </section>
@@ -91,11 +91,22 @@
           <br>
           <br>
         </div>
-        
+        <h2 class="title is-3">Summary Video (Rebuttal Update)</h2>
+        <div class="content has-text-justified">
+          <div class="columns is-centered interpolation-panel" style="background: #FDFFFF;">
+            <div class="column has-text-centered">
+              <video controls width="100%">
+                <source src="video/summary_rebuttal_update.mp4" type="video/mp4"/>
+              </video>
+            </div>
+          </div>
+          <br>
+        </div>
+
         <h2 class="title is-3">Touch-only Dexterous Manipulation System</h2>
         <div class="content has-text-justified">
           <p style="font-size: 18px; text-align: left">
-            Our hardware is consisted of an Allegro robotic hand with 16 low-cost FSR sensors. We train a control policy to rotate multiple objects in the simulation. 
+            Our hardware is consisted of an Allegro robotic hand with 16 low-cost FSR sensors. We train a control policy to rotate multiple objects around x, y, and z axes in the simulation. 
             Then the learned policy can directly transfer to the real and generalize to novel objects.
           </p>
           <div class="columns is-centered" style="background: #FDFFFF;">
@@ -116,7 +127,143 @@
           <br>
         </div>
 
-        <h2 class="title is-3">Summary Video</h2>
+        <h2 class="title is-3">Rotating Different Objects (Rebuttal Update)</h2>
+        <p style="font-size: 18px; text-align: left">
+        Our system is able to rotate a large variety of real-world objects around different axes. Some examples are shown below.
+        </p>
+        <div class="container is-max-desktop">
+          <div id="x-axis" class="carousel results-carousel">
+            <div class="item">
+              <video poster="" id="x1" autoplay muted playsinline loop height="100%">
+                <source src="video/items/x1ccs.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="item">
+              <video poster="" id="x2" autoplay muted playsinline loop height="100%">
+                <source src="video/items/x2ccs.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="item">
+              <video poster="" id="x3" autoplay muted playsinline loop height="100%">
+                <source src="video/items/x3ccs.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="item">
+              <video poster="" id="x4" autoplay muted playsinline loop height="100%">
+                <source src="video/items/x4ccs.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
+          <br>
+          <div id="y-axis" class="carousel results-carousel">
+
+            <div class="item">
+              <video poster="" id="y1" autoplay  muted playsinline loop height="100%">
+                <source src="video/items/y1ccs.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="item">
+              <video poster="" id="y2" autoplay  muted loop height="100%">
+                <source src="video/items/y2ccs.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="item">
+              <video poster="" id="y3" autoplay muted loop height="100%">
+                <source src="video/items/y3ccs.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="item">
+              <video poster="" id="y4" autoplay  muted loop height="100%">
+                <source src="video/items/y4ccs.mp4" type="video/mp4">
+              </video>
+            </div>
+
+          </div>
+          <br>
+          <div id="z-axis" class="carousel results-carousel">
+            <div class="item">
+              <video poster="" id="z1" autoplay  muted playsinline loop height="100%">
+                <source src="video/items/z1ccs.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="item">
+              <video poster="" id="z2" autoplay  muted loop height="100%">
+                <source src="video/items/z2ccs.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="item">
+              <video poster="" id="z3" autoplay muted loop height="100%">
+                <source src="video/items/z3ccs.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="item">
+              <video poster="" id="z4" autoplay  muted loop height="100%">
+                <source src="video/items/z4ccs.mp4" type="video/mp4">
+              </video>
+            </div>
+
+          </div>
+          <br>
+          <br>
+        </div>
+
+        <h2 class="title is-3">Rotating Soft, Deformable Object (Rebuttal Update) </h2>
+        <p style="font-size: 18px; text-align: left">
+        <br>
+        <br>
+        </p> 
+        <div class="content has-text-justified">
+          <div class="columns is-centered interpolation-panel" style="background: #FDFFFF;">
+            <div class="column has-text-centered">
+              <video  controls  autoplay muted loop playsinline width="70%">
+                <source src="video/soft2_compress.mp4" type="video/mp4"/>
+              </video>
+            </div>
+          </div>
+          <br>
+        </div>
+
+        <h2 class="title is-3">Enabling Human-Shared Control (Rebuttal Update)</h2>
+        <p style="font-size: 18px; text-align: left">
+        Combining various learned object rotation primitives, our system naturally provides a convenient human-shared control interface. 
+        In the following example, a human operator uses a keyboard to control our system to reorient an object.
+        <br>
+        <br>
+        </p>  
+        <div class="content has-text-justified">
+          <div class="columns is-centered interpolation-panel" style="background: #FDFFFF;">
+            <div class="column has-text-centered">
+              <video controls autoplay muted loop playsinline width="100%">
+                <source src="video/web_human_shared_control.mp4" type="video/mp4"/>
+              </video>
+            </div>
+          </div>
+          <br>
+        </div>
+
+        <h2 class="title is-3">Understanding Shapes through Touch (Rebuttal Update)</h2>
+        <p style="font-size: 18px; text-align: left">
+        To understand how touch information could be helpful, we conduct a study from a shape understanding perspective. 
+        We train a neural network to predict the object's shape from the rotation rollout. 
+        Then, we use it to predict a novel object's shape from its rotation rollout. 
+        We find that reconstructing the object's shape accurately is possible only if the touch information presents in the rollout.
+        <br>
+        <br>
+        </p> 
+        <div class="content has-text-justified">
+          <div class="columns is-centered interpolation-panel" style="background: #FDFFFF;">
+            <div class="column has-text-centered">
+              <video  controls  autoplay muted loop playsinline width="70%">
+                <source src="video/web_recon.mp4" type="video/mp4"/>
+              </video>
+            </div>
+          </div>
+          <br>
+        </div>
+
+      
+
+        <h2 class="title is-3">Summary Video (Legacy)</h2>
         <div class="content has-text-justified">
           <div class="columns is-centered interpolation-panel" style="background: #FDFFFF;">
             <div class="column has-text-centered">
